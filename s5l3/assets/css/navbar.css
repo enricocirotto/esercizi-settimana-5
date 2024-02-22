@@ -1,0 +1,43 @@
+.immagine{
+    width: 100%;
+    background-color: #ffdf7f;
+    margin: 3%;
+    border-radius: 40px;
+    padding: 20px;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.immagine h2{
+    padding: 10px;
+    font-size: 2.5em;
+}
+
+.logo{
+    width: 90px;
+}
+
+.bottoni{
+    width: 40%;
+    background-color: #ffdf7f;
+    margin: 3%;
+    border-radius: 40px;
+    padding: 2%;
+    display: flex;
+}
+
+.muzzu{
+    background-color: #fef7e2;
+    border-radius: 40px;
+    text-align: center;
+    color: #752305;
+    
+    
+}
+
+.elementi{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+

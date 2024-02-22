@@ -1,0 +1,46 @@
+.contenitoremiele img{
+    width: 100%;
+    border-radius: 40px 40px 0% 0%;   
+    display: flex;
+}
+
+.contenitoremiele{
+    background-color: #fef7e2;
+    width: 50%;
+    border-radius: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: #752305;
+}
+
+.contenitoremiele button{
+    padding: 2%  10% 2%  10%;
+    margin: 0px 0px  20px 0px;
+    border-radius: 20px 20px 20px 20px ;
+    border: none;
+    background-color: #ffdf7f;
+    color: #752305;
+}
+
+.contenitoremiele h2{
+    padding: 0;
+    margin: 10% 0%  0% 0%;
+}
+
+.contenitoremiele p {
+    margin: 0px 15px 15px 15px;
+}
+
+.allinea{
+    display: flex;
+}
+
+.c1{
+    margin-left: 10%;
+}
+
+.c2{
+    margin: 5% 5% 0% 10%;
+
+}
+
