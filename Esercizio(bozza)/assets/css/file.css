@@ -1,0 +1,345 @@
+
+  
+  .spectral-regular {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    margin: 0;
+
+  }
+
+  header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+.steaky{
+    position: sticky;
+    z-index: 2;
+}
+
+  a{
+    font-size: 0.7em;
+    padding: 10px;
+    text-decoration: none; 
+    color: #000;
+  }
+  a:hover {
+    text-decoration: underline; 
+    color: rgb(0, 0, 0); 
+}
+
+#mio-collegamento {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+#mio-collegamento:hover  {
+    text-decoration: underline; 
+    color: rgb(255, 255, 255); 
+
+
+}
+
+#mio-collegamento.verde{
+    background-color: #1a8917;
+}
+
+  
+  #sopra{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 15px;
+   background-color: #ffc017;
+   border-bottom: 1px solid #000;
+   transition: background-color 0.3s ease;
+  }
+
+ #sopra.scroll{
+    background-color: white;
+ }
+
+
+
+  .sopra2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffc017;
+    border-bottom: 1px solid #000;
+    padding-left: 10%;
+   }
+
+.fontdiverso{
+    font-family: "Spectral", serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4em;
+    padding: 0;
+    margin: 0;
+}
+
+.centra p{
+    padding: 0;
+    margin: 2% 0 8% 0;
+    font-size: 1.1em;
+    width: 65%;
+    
+}
+
+.centra a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    border-radius: 20px;
+    padding: 10px 35px 10px  35px;
+    font-size: 1.2em;
+}
+
+.centra a:hover  {
+    text-decoration: underline; 
+    color: rgb(255, 255, 255); 
+
+}
+   .padding{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+   }
+
+   #trending {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.336);
+}
+
+#trending_box {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 40px;
+    height: 300px;
+}
+
+#titolo_trending {
+    display: flex;
+    align-items: center;
+}
+
+#contenuto_trending {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#trending_box .card {
+    display: flex;
+    width: 33%;
+    margin-bottom: 25px;
+}
+
+#trending_box .numero_card {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(220, 220, 220);
+    opacity: 0.3;
+    padding-right: 20px;
+}
+
+
+
+#trending_box .author_card {
+    display: flex;
+    align-items: center;
+}
+
+#trending_box .author_card img {
+    border-radius: 50%;
+    width: 20px;
+    margin-right: 10px;
+}
+#trending_box .borderRadius_inferiore img {
+    border-radius: 5px;
+}
+
+#trending_box .author_card span {
+    font-size: 0.6rem;
+}
+
+#trending_box .author_card > span {
+    font-weight: 800;
+}
+
+#trending_box h4 {
+    margin: 10px 0;
+    font-size: 0.7rem;
+}
+
+#trending_box .date_card {
+    font-size: 0.8em;
+    color: gray;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+#articolepage {
+    display: flex;
+    width: 80%;
+    margin:  0 0 0 150px;
+    padding-top: 30px;
+    flex-direction: column;
+}
+
+#titolo_articolepage {
+    display: flex;
+    align-items: center;
+    
+}
+
+#contenuto_articolepage {
+   display: flex;
+}
+
+#articolepage .card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
+    margin-bottom: 60px;
+}
+
+.contenuto_card{
+    width: 70%;
+}
+
+
+#articolepage .author_card {
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+#articolepage .author_card img {
+    border-radius: 50%;
+    width: 20px;
+    margin-right: 10px;
+}
+
+#articolepage .author_card span {
+    font-size: 0.6rem;
+}
+
+#articolepage .author_card > span {
+    font-weight: 800;
+}
+
+#articolepage h4 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    
+}
+
+#articolepage p{
+    padding: 0px;
+    
+}
+
+
+#articolepage .date_card {
+    font-size: 0.8em;
+    color: gray;
+    display: flex;
+    align-items: center;
+}
+
+.destra{
+    padding-left: 100px;
+}
+
+.creativa{
+    color: gray(255, 255, 255);
+    background-color: rgb(220, 220, 220);
+    border-radius: 20px;
+    padding: 3px 5px 3px  5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.macrocontenitore{
+    display: flex;
+    
+}
+
+.adestra{
+    text-align: center;
+    width: 50%;
+    display: inline;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding: 10%;
+    
+}
+
+.adestra button{
+    color: gray;
+    width: 30%;
+    display: inline;
+    padding: 5px;
+    border: 1px solid rgb(211, 211, 211);
+    margin: 1%;
+    background-color: white;
+
+}
+
+.riduci{
+    overflow: hidden;
+    display: flex;
+            align-items: flex-start;
+
+}
+
+.riduci img{
+    width: 55%;
+    height: auto; 
+    display: block; 
+    text-align: left;
+}
+
+hr{
+   background-color: rgb(255, 255, 255) ;
+}
+
+.fakef{
+    color: gray;
+}
+
+.fakef a{
+    width: 100px;
+}
+
+.fakef a:hover {
+    text-decoration: underline; 
+    color:  gray; 
+}
+
+.inlinea{
+    display: inline-flex;
+}
